@@ -1,0 +1,43 @@
+$column-count: 12;
+$gutter-width: 48px;
+
+// Extra small
+$xs-max:543px;
+
+// Small
+$sm-min:544px;
+$sm-max:767px;
+
+// Medium
+$md-min:768px;
+$md-max:991px;
+
+// Large
+$lg-min:992px;
+$lg-max:1199px;
+
+// Extras Large
+$xl-min:1200px;
+
+$grid-gutter-widths: (
+    xs: $gutter-width,
+    sm: $gutter-width,
+    md: $gutter-width,
+    lg: $gutter-width,
+    xl: $gutter-width
+);
+
+$grid-breakpoints: (
+    xs: 0,
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px
+);
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1240px
+)

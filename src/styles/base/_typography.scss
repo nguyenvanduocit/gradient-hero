@@ -1,0 +1,15 @@
+
+html{
+  font-size: 16px;
+  body{
+    font-family: $font-primary;
+    font-weight: normal;
+    color: $color--text;
+    @include font-size(16);
+  }
+}
+a{
+  color: $color--link;
+  text-decoration: none;
+  border-bottom: 1px dashed $color--link;
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Gradient Hero",
+  "short_name": "Gradient Hero",
+  "icons": [
+    {
+      "src": "/static/images/logos/48x48.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "/static/images/logos/96x96.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "/static/images/logos/192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#ffffff",
+  "theme_color": "#02B3E4"
+}

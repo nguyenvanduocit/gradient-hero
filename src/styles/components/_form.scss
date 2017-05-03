@@ -1,0 +1,12 @@
+input[type="text"], input[type="color"], textarea{
+  border-radius: 5px;
+  border: 1px solid $color--border;
+  min-height: 40px;
+  padding: 5px 12px;
+  @include font-size(16);
+  letter-spacing: 0;
+  width: 100%;
+  @include plain-hover-focus-active-visited{
+    outline: none;
+  }
+}

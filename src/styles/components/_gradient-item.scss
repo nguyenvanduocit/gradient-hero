@@ -1,0 +1,22 @@
+.gradient-grid{
+  .gradient-item{
+    .gradient{
+      @include aspect-ratio(16, 9);
+    }
+  }
+  &.circle{
+    .gradient-item{
+      border-radius: 50%;
+      .gradient{
+        @include aspect-ratio(1, 1);
+      }
+    }
+  }
+  &.square{
+    .gradient-item{
+      .gradient{
+        @include aspect-ratio(1, 1);
+      }
+    }
+  }
+}
