@@ -2,7 +2,7 @@
 	<div class="site-footer">
 		<div class="container">
 			<div class="inner">
-				<p class="copyright">&copy; 2017 Sen Việt. <a href="mailto:nguyenvanduocit@gmail.com">Nguyễn Văn Được</a> | <router-link to="/about">About</router-link></p>
+				<p class="copyright">&copy; 2017 Sen Việt. <a href="mailto:nguyenvanduocit@gmail.com">Nguyễn Văn Được</a> &sdot; <router-link to="/about">About</router-link> &sdot; <router-link to="/license">License</router-link></p>
 				<div class="links">
 					<a href="#"><i class="icon-facebook-square"></i></a>
 					<a href="#"><i class="icon-linkedin-square"></i></a>

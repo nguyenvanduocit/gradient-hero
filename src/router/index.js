@@ -16,6 +16,11 @@ export default new Router({
       path: '/about',
       name: 'about',
       component: resolve => require(['@/components/main/about'], resolve)
+    },
+    {
+      path: '/license',
+      name: 'license',
+      component: resolve => require(['@/components/main/license'], resolve)
     }
   ],
   scrollBehavior (to, from, savedPosition) {
