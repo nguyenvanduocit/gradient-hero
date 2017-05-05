@@ -4,13 +4,13 @@
 			<p>Loading your gradients...</p>
 		</div>
 		<div v-else class="container">
-			<gradient-grid v-show="populatedList.length > 0" icon="🔥" title="Populated gradients" :list="populatedList"></gradient-grid>
+			<gradient-grid v-show="populatedList.length > 0" icon="🔥" title="Popular gradients" :list="populatedList"></gradient-grid>
 			<gradient-grid v-show="gradientList.length > 0" icon="🌋" title="Latest gradients" :list="gradientList"></gradient-grid>
 		</div>
 		<gradient-modal overlay-theme="dark"></gradient-modal>
 		<sweet-modal icon="error" overlay-theme="dark" modal-theme="dark" ref="deleteModal">
 			<p>This is a website driven by the community. Your actions will affect the community. Are you sure you want to delete this gradient?</p>
-			<a href="#" @click.prevent="deleteGradient" class="btn btn-primary">Delete always, it's too disgusting</a>
+			<a href="#" @click.prevent="deleteGradient" class="btn btn-primary">Delete anyways, it's too disgusting</a>
 		</sweet-modal>
 	</div>
 </template>
